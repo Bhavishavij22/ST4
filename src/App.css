@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  /* backgroun: #d44b25; */
+  background-image: url("jane-sakharova-lv0cT-axNJU-unsplash.jpg");
+  background-size: cover;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .container{
+  background-color: rgba(black, black, black, 1);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  width: 50%;
+  /* margin-left: 26%; */
+  margin: auto;
+  margin-top: 12%;
+  text-align: center;
+  border-radius: 3px;
+  padding-bottom: 40px;
+  border: 2px solid black;
+  /* border-color: black; */
+  /* background: transparent; */
   }
-  to {
-    transform: rotate(360deg);
+
+  input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
   }
-}
+
+  input[type=password], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  }
+
+  button:hover {
+  background-color: #48dee3;
+  }
+
+  button{
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+  .header{
+  width: 95%;
+  /* background-color: rgb(243, 240, 243); */
+  margin-left: 25%;
+  width: 50%;
+  padding: 20px 30px;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  }
+
+  .header:hover{
+    color: rgb(191, 53, 106);
+  }
+
+  .ui-define{
+    color:black;
+    text-align: center;
+    font-size: 70px;
+  }
